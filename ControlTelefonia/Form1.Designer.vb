@@ -178,7 +178,7 @@ Partial Class Form1
         '
         'txtFichero
         '
-        Me.txtFichero.Location = New System.Drawing.Point(754, 387)
+        Me.txtFichero.Location = New System.Drawing.Point(775, 388)
         Me.txtFichero.Name = "txtFichero"
         Me.txtFichero.Size = New System.Drawing.Size(261, 22)
         Me.txtFichero.TabIndex = 9
