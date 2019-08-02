@@ -53,6 +53,7 @@ Partial Class Form1
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.division, Me.factura, Me.tipoLinea, Me.centroGasto, Me.concepto, Me.linea, Me.fecha, Me.importe, Me.usuario, Me.ubicacion, Me.tarifa})
         Me.DataGridView1.Location = New System.Drawing.Point(12, 12)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(1358, 316)
         Me.DataGridView1.TabIndex = 0
@@ -60,57 +61,79 @@ Partial Class Form1
         'division
         '
         Me.division.HeaderText = "Division"
+        Me.division.MinimumWidth = 6
         Me.division.Name = "division"
+        Me.division.Width = 125
         '
         'factura
         '
         Me.factura.HeaderText = "Factura"
+        Me.factura.MinimumWidth = 6
         Me.factura.Name = "factura"
+        Me.factura.Width = 125
         '
         'tipoLinea
         '
         Me.tipoLinea.HeaderText = "Tipo Linea"
+        Me.tipoLinea.MinimumWidth = 6
         Me.tipoLinea.Name = "tipoLinea"
+        Me.tipoLinea.Width = 125
         '
         'centroGasto
         '
         Me.centroGasto.HeaderText = "Centro Gasto"
+        Me.centroGasto.MinimumWidth = 6
         Me.centroGasto.Name = "centroGasto"
+        Me.centroGasto.Width = 125
         '
         'concepto
         '
         Me.concepto.HeaderText = "Concepto"
+        Me.concepto.MinimumWidth = 6
         Me.concepto.Name = "concepto"
+        Me.concepto.Width = 125
         '
         'linea
         '
         Me.linea.HeaderText = "Linea"
+        Me.linea.MinimumWidth = 6
         Me.linea.Name = "linea"
+        Me.linea.Width = 125
         '
         'fecha
         '
         Me.fecha.HeaderText = "Fecha"
+        Me.fecha.MinimumWidth = 6
         Me.fecha.Name = "fecha"
+        Me.fecha.Width = 125
         '
         'importe
         '
         Me.importe.HeaderText = "Importe"
+        Me.importe.MinimumWidth = 6
         Me.importe.Name = "importe"
+        Me.importe.Width = 125
         '
         'usuario
         '
         Me.usuario.HeaderText = "Usuario"
+        Me.usuario.MinimumWidth = 6
         Me.usuario.Name = "usuario"
+        Me.usuario.Width = 125
         '
         'ubicacion
         '
         Me.ubicacion.HeaderText = "Ubicacion"
+        Me.ubicacion.MinimumWidth = 6
         Me.ubicacion.Name = "ubicacion"
+        Me.ubicacion.Width = 125
         '
         'tarifa
         '
         Me.tarifa.HeaderText = "Tarifa"
+        Me.tarifa.MinimumWidth = 6
         Me.tarifa.Name = "tarifa"
+        Me.tarifa.Width = 125
         '
         'Cargar
         '
@@ -178,7 +201,7 @@ Partial Class Form1
         '
         'txtFichero
         '
-        Me.txtFichero.Location = New System.Drawing.Point(775, 388)
+        Me.txtFichero.Location = New System.Drawing.Point(785, 388)
         Me.txtFichero.Name = "txtFichero"
         Me.txtFichero.Size = New System.Drawing.Size(261, 22)
         Me.txtFichero.TabIndex = 9
